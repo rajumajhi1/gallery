@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Global, css } from '@emotion/react';
 import Home from './components/Home';
 import Gallery from './components/Gallery';
-import ScreenshotPrevention from './components/ScreenshotPrevention';
 import Login from './components/Login';
 import ProtectedRoute from './components/ProtectedRoute';
 import { theme } from './theme';
@@ -19,7 +18,7 @@ const globalStyles = css`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
-    background: linear-gradient(135deg, #fef6f9 0%, #fff9fb 100%);
+    background: linear-gradient(135deg,rgb(48, 17, 65) 0%,rgb(186, 78, 114) 100%);
   }
 
   img {
@@ -34,7 +33,6 @@ function App() {
   return (
     <Router>
       <Global styles={globalStyles} />
-      <ScreenshotPrevention />
       <Routes>
         <Route path="/" element={<ProtectedRoute />}>
           <Route index element={<Home />} />

@@ -126,7 +126,7 @@ const TimeUnit = styled.div`
   .number {
     font-size: ${theme.typography.heading.mobile.h3};
     font-weight: ${theme.typography.fontWeight.bold};
-    color: ${theme.colors.text};
+    color: ${theme.colors.text1};
     line-height: 1;
 
     ${theme.mediaQueries.sm} {

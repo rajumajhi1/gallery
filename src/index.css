@@ -20,7 +20,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: linear-gradient(135deg, #fef6f9 0%, #fff9fb 100%);
+  background: linear-gradient(135deg, #FFB200 0%, #EB5B00 100%);
   display: flex;
   place-items: center;
 }
@@ -99,4 +99,5 @@ a:hover {
   button {
     background-color: #f9f9f9;
   }
+
 }

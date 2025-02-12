@@ -11,7 +11,7 @@ const NavbarContainer = styled.nav`
   left: 0;
   right: 0;
   height: 60px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(41, 36, 36, 0.9);
   backdrop-filter: blur(10px);
   display: flex;
   align-items: center;

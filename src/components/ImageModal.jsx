@@ -70,7 +70,7 @@ const ImageInfo = styled(motion.div)`
 `;
 
 const Title = styled.h3`
-  color: ${theme.colors.text};
+  color: ${theme.colors.text2};
   font-size: 1.2rem;
   margin: 0;
 `;

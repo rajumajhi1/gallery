@@ -22,6 +22,7 @@ export const theme = {
     secondary: '#ffd3e0',
     text: '#f1f1f1',
     text1: '#ff6b95',
+    text2: '#de7070',
     white: '#ffffff',
     lightPink: '#fff0f3',
     darkPink: '#ff4778',

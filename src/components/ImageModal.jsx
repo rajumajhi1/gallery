@@ -60,7 +60,7 @@ const ImageInfo = styled(motion.div)`
   bottom: -60px;
   left: 0;
   right: 0;
-  background: ${theme.colors.white};
+  background: ${theme.colors.white2};
   padding: ${theme.spacing.md};
   border-radius: ${theme.borderRadius.medium};
   display: flex;

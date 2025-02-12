@@ -24,9 +24,11 @@ export const theme = {
     text1: '#ff6b95',
     text2: '#de7070',
     white: '#ffffff',
+    white2: '#25272a',
     lightPink: '#fff0f3',
     darkPink: '#ff4778',
-    background: '#ffffff'
+    background: '#ffffff',
+    background2: 'linear-gradient(to top,rgb(136, 111, 126),rgb(213, 39, 120))'
   },
   spacing: {
     xxs: '4px',

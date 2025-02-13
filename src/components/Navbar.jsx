@@ -105,7 +105,7 @@ const MobileMenu = styled(motion.div)`
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.98);
+  background: linear-gradient(to right, #383b5a, #0a1628);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,7 +143,7 @@ function Navbar() {
       <NavbarContainer>
         <Logo to="/">
           <FiHeart />
-          Love <span>Gallery</span>
+           <span>Gallery</span>
         </Logo>
 
         <NavLinks>

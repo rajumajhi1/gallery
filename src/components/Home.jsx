@@ -194,7 +194,7 @@ function Home() {
 
   return (
     <HomeContainer>
-      <Header>Welcome to Our <span>Love Gallery</span></Header>
+      <Header>Welcome to Our <span> Gallery</span></Header>
       <Tagline>A beautiful collection of our memories together, filled with love, laughter, and countless precious moments.</Tagline>
       <Countdown />
       <motion.div

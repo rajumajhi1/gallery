@@ -194,6 +194,11 @@ function Navbar() {
             >
               Gallery
             </MobileNavLink>
+            <div className='footer'>
+            <footer style={{ textAlign: 'center', padding: '1rem', color: '#fff', marginTop: 'auto',bottom: '0' }}>
+              Developed by Raju Majhi
+            </footer>
+            </div>
           </MobileMenu>
         )}
       </AnimatePresence>
